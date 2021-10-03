@@ -1,0 +1,9 @@
+.header__lang-links {
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .header__lang-links {
+        margin-right: 48px;
+    }
+}
