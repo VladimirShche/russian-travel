@@ -9,7 +9,7 @@
     margin-bottom: 33px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .intro__paragraph {
         margin-bottom: 34px;
     }
