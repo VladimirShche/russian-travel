@@ -6,6 +6,10 @@
     gap: 48px 40px;
 }
 
+.place:nth-of-type(1) {
+    margin: 0;
+}
+
 @media(max-width: 1024px) {
     .place {
         gap: 48px 32px;
@@ -17,7 +21,6 @@
     .place {
         gap: 48px 28px;
         grid-template-columns: min-content 1fr;
-        grid-template-rows: min-content 340px; 
         margin-top: 73px;
     }
 }

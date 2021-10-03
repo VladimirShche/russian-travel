@@ -9,8 +9,8 @@
     align-items: center;
 }
 
-/* @media (max-width: 1024px) {
+@media (max-width: 768px) {
     .lead {
-        margin-top: ;
+        margin-top: 48px;
     }
-} */
+}

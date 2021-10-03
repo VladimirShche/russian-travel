@@ -2,6 +2,20 @@
     margin: 0;
     padding: 0;    
     height: 460px;
-    width: 460px;
+    max-width: 460px;
     grid-row: 2 / 2;
+}
+
+@media (max-width: 1024px) {
+    .place__image {
+        height: 440px;
+        max-width: 440px;
+    }
+}
+
+@media (max-width: 768px) {
+    .place__image {
+        height: 340px;
+        max-width: 340px;
+    }
 }
