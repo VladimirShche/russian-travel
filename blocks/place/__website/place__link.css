@@ -8,3 +8,8 @@
     /* identical to box height, or 122% */
     margin-top: 12px;
 }
+
+.place__link:hover {
+    opacity: .3;
+    transition: .3s;
+}
