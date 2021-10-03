@@ -37,3 +37,10 @@
         height: 640px;
     }
 }
+
+@media (max-width: 768px) {
+    .cover__background {
+        max-width: 768px;
+        height: 480px;
+    }
+}

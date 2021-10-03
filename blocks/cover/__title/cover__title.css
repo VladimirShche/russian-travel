@@ -11,3 +11,9 @@
     margin-top: 195px;
     width: 560px;
 }
+
+@media (max-width: 768px) {
+    .cover__title {
+        margin-top: 115px;
+    }
+}
