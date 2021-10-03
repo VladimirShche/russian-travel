@@ -6,3 +6,12 @@
     line-height: 16px;
     /* identical to box height, or 114% */
 }
+
+@media (max-width: 320px) {
+    .footer__copyright {
+        margin-top: 48px;
+        font-size: 14px;
+        line-height: 14px;
+        /* identical to box height, or 100% */
+    }
+}

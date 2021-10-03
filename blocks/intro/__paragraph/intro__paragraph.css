@@ -1,4 +1,4 @@
-.intro_paragraph {
+.intro__paragraph {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -7,4 +7,10 @@
     margin: 0;
     margin-top: 40px;
     margin-bottom: 33px;
+}
+
+@media (max-width: 320px) {
+    .intro__paragraph {
+        margin-bottom: 34px;
+    }
 }

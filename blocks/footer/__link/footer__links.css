@@ -3,3 +3,12 @@
     grid-template-columns: repeat(5, max-content);
     gap: 18px;
 }
+
+@media (max-width: 320px) {
+    .footer__links {
+        grid-template-columns: 186px;
+        grid-template-rows: repeat(5, min-content);
+        gap: 32px;
+        justify-content: flex-start;
+    }
+}

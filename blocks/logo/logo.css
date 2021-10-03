@@ -16,3 +16,11 @@
         margin-left: 24px;
     }
 }
+
+@media (max-width: 768px) {
+    .logo {
+        margin-left: 16px;
+        width: 142px;
+        height: 42px;
+    }
+}

@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     max-width: 1184px;
-    height: 18px;
+    min-height: 18px;
     margin-top: 92px;
     padding-bottom: 24px;
     margin-left: auto;
@@ -20,5 +20,15 @@
 @media (max-width: 768px) {
     .footer {
         max-width: 720px;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer {
+        max-width: 186px;
+        max-height: 310px;
+        flex-direction: column;
+        margin-left: 16px;
+        margin-right: 118px;
     }
 }

@@ -9,11 +9,21 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 195px;
-    width: 560px;
+    max-width: 560px;
 }
 
 @media (max-width: 768px) {
     .cover__title {
         margin-top: 115px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover__title {
+        margin-top: 33px;
+        font-size: 32px;
+        line-height: 35px;
+        /* or 109% */
+        max-width: 288px;
     }
 }

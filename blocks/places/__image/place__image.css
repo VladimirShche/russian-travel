@@ -19,3 +19,11 @@
         max-width: 340px;
     }
 }
+
+@media (max-width: 320px) {
+    .place__image {
+        height: 320px;
+        max-width: 320px;
+        grid-row: 3 / 4;
+    }
+}
