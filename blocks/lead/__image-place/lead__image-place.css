@@ -1,0 +1,5 @@
+.lead__image-place {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
