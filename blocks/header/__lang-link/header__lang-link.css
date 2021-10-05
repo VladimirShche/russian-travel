@@ -4,10 +4,11 @@
     font-size: 24px;
     line-height: 28px;
     margin-right: 18px;
-    text-decoration: underline;
+    color: #fff;
+    text-decoration: none;
 }
 
-.header__lang-link:nth-last-of-type(1) {
-    margin-right: 0;
-    text-decoration: none;
+.header__lang-link:hover {
+    opacity: 0.3;
+    transition: .3s;
 }

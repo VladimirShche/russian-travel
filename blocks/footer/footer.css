@@ -4,11 +4,11 @@
     display: flex;
     justify-content: space-between;
     max-width: 1184px;
-    min-height: 18px;
     margin-top: 92px;
     padding-bottom: 24px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #2A2C2F;
 }
 
 @media (max-width: 1279px) {
@@ -26,7 +26,6 @@
 @media (max-width: 767px) {
     .footer {
         max-width: 186px;
-        max-height: 310px;
         flex-direction: column;
         margin-left: 16px;
         margin-right: 118px;
