@@ -7,6 +7,7 @@
     color: #fff;
     /* identical to box height, or 122% */
     margin-top: 12px;
+    justify-self: start;
 }
 
 .place__link:hover {
