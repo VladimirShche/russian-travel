@@ -27,7 +27,7 @@
     .footer {
         max-width: 186px;
         grid-template-columns: max-content;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr min-content;
         padding-left: 16px;
         padding-right: 118px;
         margin-top: 64px;
