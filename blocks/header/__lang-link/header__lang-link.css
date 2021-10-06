@@ -12,3 +12,11 @@
     opacity: 0.8;
     transition: .3s;
 }
+
+@media (max-width: 767px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+        /* identical to box height, or 111% */
+    }
+}

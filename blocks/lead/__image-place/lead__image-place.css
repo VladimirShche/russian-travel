@@ -10,10 +10,3 @@
         margin-right: auto;
     }
 }
-
-@media (max-width: 1023px) {
-    .lead__image-place {
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
