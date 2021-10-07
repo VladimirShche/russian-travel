@@ -11,6 +11,7 @@
     .place__image {
         max-height: 340px;
         max-width: 340px;
+        align-self: start;
     }
 }
 
